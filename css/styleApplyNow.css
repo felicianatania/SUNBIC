@@ -1,0 +1,158 @@
+.title{
+    margin-top: 90px;
+    margin-left: 7%;
+    margin-bottom: 40px;
+    text-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
+    color: #121212;
+}
+
+.grey{
+    color: #5C5454;
+    width: 500px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.black{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.thin{
+    font-weight: 500;
+}
+
+.big-box{
+    /* background: #73D9CD; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.big-box img{
+    width: 390px;
+    height: 500px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.container{
+    background: #73D9CD;
+    height: 500px;
+    width: 700px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.container form .detail{
+    background: #73D9CD;
+    /* height: 500px; */
+    /* width: 700px; */
+    /* padding: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container form .detail .input-small{
+    width: calc(100% / 2 - 20px);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container form .detail .input-small input{
+    height: 35px;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container form .detail .input-small input:focus{
+    border-color: #AED3FD;
+}
+
+.container form .detail .input-small select{
+    height: 35px;
+    width: 100%;
+    border: none;
+}
+
+.detail .input-small .category{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.container form .input-big{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container form .input-big input{
+    height: 35px;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container form .input-big .category{
+    font-weight: 600;
+}
+
+.container .gender .category{
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.container .gender input{
+    margin-top: 5px;
+    width: 25px;
+    margin-bottom: 15px;
+    color: #FAFAFF;
+}
+
+.container .gender label{
+    font-size: 0.9rem;
+}
+
+.container .checkbox input{
+    margin-top: 5px;
+    width: 25px;
+    margin-bottom: 15px;
+}
+
+.container .checkbox label{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: right;
+}
+
+.btn-submit .submit{
+    background: #B8CFF9;
+    height: 35px;
+    width: 100px;
+    border: none;
+    margin-right: 5px;
+    font-weight: 600;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-submit .submit:hover{
+    transform: scale(1.05);
+    transform: translateY(-2px);
+}
+
+
